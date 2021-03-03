@@ -159,12 +159,11 @@ header{
 
  .main-box{
   width: calc(100% / 3);
-  height: 400px;
  }
 
 .box{
   width: 100%;
-  padding: 10% 15%;
+  padding: 5% 15%;
 }
 
  .box img{
@@ -182,4 +181,13 @@ header{
 
  .box .img-doc{
    width: 150px;
+ }
+
+ .main-box hr{
+   width: 70px;
+   margin:auto;
+ }
+
+ .box p{
+   line-height: 20px;
  }
