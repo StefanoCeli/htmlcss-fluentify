@@ -127,19 +127,59 @@ header{
   margin-bottom: 30px;
 }
 /* MAIN */
+
+/* PRIMA SEZIONE */
+
 .center-text{
   text-align: center;
 }
 
 .center-text h3{
   font-size: 150%;
+  margin-bottom: 10px;
+  color:#7CBB04;
 }
 
 .top{
   background-color: #D3D3D3;
   padding: 30px 0;
 }
+
  .top.center-text h3{
    color: black;
-   margin-bottom: 10px;
+   
+ }
+
+ /* SECONDA SEZIONE */
+
+ .contain{
+   width: 80%;
+   margin: 0 auto;
+ }
+
+ .main-box{
+  width: calc(100% / 3);
+  height: 400px;
+ }
+
+.box{
+  width: 100%;
+  padding: 10% 15%;
+}
+
+ .box img{
+   height: 120px;
+   margin-bottom: 20px;
+ }
+
+ .box .img-profile{
+  width: 100px;
+ }
+
+ .box .img-computer{
+   width: 200px;
+ }
+
+ .box .img-doc{
+   width: 150px;
  }
