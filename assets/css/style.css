@@ -1,0 +1,128 @@
+/* LAYOUT */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body{
+  font-family: 'Roboto' , sans-serif;
+  font-size: 14px;
+  color: #CECECE;
+}
+.float-left{
+  float: left;
+}
+
+.w-50{
+  width: 50%;
+}
+
+/* HEADER */
+
+header{
+  height: 550px;
+  background-color: #0C325A;
+}
+
+.header-container{
+  width: 100%;
+  height: 100%;
+  padding: 0 10%;
+  min-width: 1400px;
+  background-image: url(../img/background-header.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
+  
+}
+
+.header-nav{
+  height: 80px;
+  line-height: 80px;
+  overflow: hidden;
+}
+
+.header-logo{
+ width: 15%;
+ 
+}
+
+.header-logo img{
+  margin-top: 14px;
+}
+
+.header-nav-center{
+  width: 45%;
+}
+
+.header-nav-right{
+  width: 40%;
+  text-align: right;
+}
+
+.menu-inline{
+  list-style: none;
+}
+.menu-inline li{
+  display: inline;
+  padding: 0 10px;
+}
+
+.menu-inline li a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 85%;
+}
+
+/* BOTTONI */
+
+.btn{
+  display: inline-block;
+  line-height: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 85%;
+}
+
+.btn.btn-blue{
+  border: 1px solid #fff;
+  padding: 5px 30px;
+}
+
+.btn.btn-green{
+  background-color: #7CBB04;
+}
+
+.btn.btn-green.btn.btn-large{
+  padding: 20px;
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+  position: relative;
+  height:470px;
+}
+
+.jumbotron-text{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jumbotron-text h1{
+  color: #fff;
+  font-size: 350%;
+  margin-bottom: 30px;
+}
