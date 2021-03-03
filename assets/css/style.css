@@ -14,7 +14,7 @@
 body{
   font-family: 'Roboto' , sans-serif;
   font-size: 14px;
-  color: #CECECE;
+  color: gray;
 }
 .float-left{
   float: left;
@@ -126,3 +126,20 @@ header{
   font-size: 350%;
   margin-bottom: 30px;
 }
+/* MAIN */
+.center-text{
+  text-align: center;
+}
+
+.center-text h3{
+  font-size: 150%;
+}
+
+.top{
+  background-color: #D3D3D3;
+  padding: 30px 0;
+}
+ .top.center-text h3{
+   color: black;
+   margin-bottom: 10px;
+ }
