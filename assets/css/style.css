@@ -13,15 +13,39 @@
 
 body{
   font-family: 'Roboto' , sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: gray;
 }
+
+h2{
+  font-size: 200%;
+ }
+
+h3{
+  font-size: 160%;
+}
+
 .float-left{
   float: left;
 }
 
 .w-50{
   width: 50%;
+}
+
+.right-text{
+  text-align: right;
+}
+
+.help{
+  position: fixed;
+  bottom: -1.5%;
+  right: 30%;
+  z-index: 999;
+}
+
+.help:hover{
+  bottom:-0.5%;
 }
 
 /* HEADER */
@@ -64,12 +88,12 @@ header{
 
 .header-nav-right{
   width: 40%;
-  text-align: right;
 }
 
 .menu-inline{
   list-style: none;
 }
+
 .menu-inline li{
   display: inline;
   padding: 0 10px;
@@ -105,7 +129,7 @@ header{
 }
 
 .btn.btn-green.btn-large{
-  padding: 20px;
+  padding: 15px;
 }
 
 /* JUMBOTRON */
@@ -134,15 +158,26 @@ header{
   text-align: center;
 }
 
-.center-text h3{
-  font-size: 160%;
+
+.title{
   margin-bottom: 10px;
   color: black;
 }
 
-.top{
+.gray-bar{
   background-color: #D3D3D3;
-  padding: 30px 0;
+  height: 100px;
+}
+
+.top.gray-bar{
+  position: relative;
+}
+
+.top.gray-bar div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -162,8 +197,12 @@ header{
   padding: 5% 15%;
 }
 
-.main-box .box h3{
+.title-green{
   color:#7CBB04;
+  margin-bottom: 10px;
+}
+
+.main-box .box h3{
   min-height: 60px;
 }
 
@@ -207,8 +246,34 @@ header{
    padding: 50px;
  }
 
- .box-large h2{
-  font-size: 250%;
-  margin-bottom: 10px;
+ .box-large p{
+   margin-bottom: 20px;
+ }
+
+ /* QUARTA SEZIONE */
+
+ .bot.gray-bar{
+   line-height: 100px;
+   min-width: 1000px;
+ }
+
+ .bot.gray-bar .contain .select{
+   margin: 0 5%;
+   border-bottom: 1px solid black;
+   line-height: 20px;
+   cursor: pointer;
+ }
+
+ .bot.gray-bar .contain h2{
+  width: 50%;
   color: black;
+}
+
+ .bot.gray-bar .contain div.text-select{
+   width: 50%; 
+ }
+
+ .bot.gray-bar .contain div.text-select i{
+   padding-left: 20%;
+   
  }
