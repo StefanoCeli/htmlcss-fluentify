@@ -248,6 +248,7 @@ header{
 
  .box-large p{
    margin-bottom: 20px;
+   padding-right: 150px;
  }
 
  /* QUARTA SEZIONE */
@@ -276,4 +277,15 @@ header{
  .bot.gray-bar .contain div.text-select i{
    padding-left: 20%;
    
+ }
+
+ /* QUINTA SEZIONE */
+
+ .small-contain{
+   width: 60%;
+   margin: auto;
+ }
+
+ .margin-text-p{
+   margin: 30px 0;
  }
