@@ -137,7 +137,7 @@ header{
 .center-text h3{
   font-size: 150%;
   margin-bottom: 10px;
-  color:#7CBB04;
+  color: black;
 }
 
 .top{
@@ -145,10 +145,6 @@ header{
   padding: 30px 0;
 }
 
- .top.center-text h3{
-   color: black;
-   
- }
 
  /* SECONDA SEZIONE */
 
@@ -164,6 +160,11 @@ header{
 .box{
   width: 100%;
   padding: 5% 15%;
+}
+
+.main-box .box h3{
+  color:#7CBB04;
+  min-height: 60px;
 }
 
  .box img{
@@ -183,11 +184,13 @@ header{
    width: 150px;
  }
 
- .main-box hr{
+ .line-border{
    width: 70px;
-   margin:auto;
+   border-top: 1px solid black;
+   margin: auto;
  }
 
  .box p{
    line-height: 20px;
+   margin-top: 20px;
  }
